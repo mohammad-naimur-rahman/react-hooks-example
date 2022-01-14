@@ -1,14 +1,12 @@
-import { Accordion } from "react-bootstrap"
-import { Link } from "react-router-dom"
-import hooksData from "./hooksDescriptionData.json"
+import { Accordion } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import Heading from './components/Heading'
+import hooksData from './hooksDescriptionData.json'
 
 const HomePage = () => {
   return (
     <div className="container">
-      <h1 className="text-center py-5">
-        All React <span className="text-success">Hooks</span>
-      </h1>
-
+      <Heading />
       <Accordion defaultActiveKey="0">
         {hooksData.map((hook) => (
           <Accordion.Item key={hook.id} eventKey={hook.id - 1}>
