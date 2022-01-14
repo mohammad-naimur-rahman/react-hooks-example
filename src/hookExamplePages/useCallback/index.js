@@ -1,10 +1,10 @@
-import Heading from '../../components/Heading'
+import HookPageWrapper from '../../components/HookPageWrapper'
 
 const UseCallback = () => {
   return (
-    <div className="container">
-      <Heading hook="useCallback" />
-    </div>
+    <HookPageWrapper hook="useCallBack">
+      <p>Bla</p>
+    </HookPageWrapper>
   )
 }
 
