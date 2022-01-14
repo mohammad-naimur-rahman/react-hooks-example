@@ -1,8 +1,68 @@
 [
   {
     "id": 1,
-    "hookName": "useCallback",
+    "hookName": "useState",
+    "description": "bla bla bla",
+    "link": "/useState"
+  },
+  {
+    "id": 2,
+    "hookName": "useEffect",
+    "description": "bla bla bla",
+    "link": "/useEffect"
+  },
+  {
+    "id": 3,
+    "hookName": "useContext",
+    "description": "bla bla bla",
+    "link": "/useContext"
+  },
+  {
+    "id": 4,
+    "hookName": "useReducer",
+    "description": "bla bla bla",
+    "link": "/useReducer"
+  },
+  {
+    "id": 5,
+    "hookName": "useContext + useReducer",
+    "description": "bla bla bla",
+    "link": "/useContext-and-useReducer"
+  },
+  {
+    "id": 6,
+    "hookName": "useCallBack",
     "description": "bla bla bla",
     "link": "/useCallback"
+  },
+  {
+    "id": 7,
+    "hookName": "useMemo",
+    "description": "bla bla bla",
+    "link": "/useMemo"
+  },
+  {
+    "id": 8,
+    "hookName": "useRef",
+    "description": "bla bla bla",
+    "link": "/useRef"
+  },
+  {
+    "id": 9,
+    "hookName": "useImperativeHandle",
+    "description": "bla bla bla",
+    "link": "/useImperativeHandle"
+  },
+  {
+    "id": 10,
+    "hookName": "useLayoutEffect",
+    "description": "bla bla bla",
+    "link": "/useLayoutEffect"
+  },
+  {
+    "id": 11,
+    "hookName": "useDebugValue",
+    "description": "bla bla bla",
+    "link": "/useDebugValue"
   }
 ]
