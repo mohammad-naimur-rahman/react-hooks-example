@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
+
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/Assets/bg.jpg');
   background-size: cover;
@@ -27,5 +29,29 @@ h6 {
 }
 
 .accordion-button {
+  font-weight: bold;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 80%;
+  background-color: rgb(94, 93, 93);
+  padding: 2px 5px;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+
+.indent {
+  margin-left: 40px;
+}
+
+.image {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+.highlight-text {
+  font-style: italic;
   font-weight: bold;
 }

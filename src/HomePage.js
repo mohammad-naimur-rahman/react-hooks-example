@@ -20,7 +20,7 @@ const HomePage = () => {
               <div className="d-flex flex-column">
                 <p>{hook.description}</p>
                 <Link to={hook.link}>
-                  <button className="btn btn-primary">See Example</button>
+                  <button className="btn btn-primary">See Examples</button>
                 </Link>
               </div>
             </Accordion.Body>

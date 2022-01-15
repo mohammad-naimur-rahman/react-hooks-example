@@ -2,7 +2,7 @@
   {
     "id": 1,
     "hookName": "useState",
-    "description": "bla bla bla",
+    "description": "useState hook is used to save the state of the component, and it is used for local component and the state can be transferred to down level component, and also up level component by difficulty. But the state can not be transferred between sibling components. useContext is a solution for universal state management for React applications.",
     "link": "/useState"
   },
   {
@@ -32,7 +32,7 @@
   {
     "id": 6,
     "hookName": "useCallBack",
-    "description": "bla bla bla",
+    "description": "useCallback hook prevent unnecessary rerender of any memoized component",
     "link": "/useCallback"
   },
   {
